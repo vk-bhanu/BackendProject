@@ -25,5 +25,3 @@ app.get("/", (req, res) => res.send("API is Running..."));
 
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-console.log("JWT Secret:", process.env.JWT_SECRET);
-
